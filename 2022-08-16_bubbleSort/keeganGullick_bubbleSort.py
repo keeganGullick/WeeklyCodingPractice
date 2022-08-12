@@ -11,7 +11,7 @@ def bubbleSortMain(inputList):
         # Loop over pairs
         for jj in range(0, (len(inputList) - ii - 1)):
             # Compare and swap if not in the correct order
-            if inpustList[jj] > inputList[jj + 1]:
+            if inputList[jj] > inputList[jj + 1]:
                 inputList[jj], inputList[jj + 1] = inputList[jj + 1], inputList[jj]
 
 
