@@ -16,12 +16,10 @@ def bubbleSortMain(inputList):
 
 
 # Gets data from the user
-inData = [int(x) for x in input("Space separated integers: ")].split()]
-
+inData = [int(x) for x in input("Space separated integers: ").split()]
 
 # Bubble Sort
 bubbleSortMain(inData)
-
 
 # Results
 print(inData)
